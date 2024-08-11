@@ -94,9 +94,11 @@ h1{
     }
     .prj a:hover {
         background-color: #202020;
+        border-radius: 25px;
     }
     .prj p{
         text-align: justify;
+        font-size: 16px;
     }
 
     #ct{
