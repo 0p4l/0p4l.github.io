@@ -8,7 +8,7 @@ h1{
     padding-top: 30px;
 }
 
-@media (min-width:1366px) and (max-width:480px){
+@media (min-device-width:480px) and (max-device-width:1366px){
     .portf{
         margin: 0;
         height: auto;
