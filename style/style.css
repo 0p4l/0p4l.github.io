@@ -76,8 +76,8 @@ h1{
     }
     .prj li{
         flex-grow: 1;
-        margin: 10px;
-        width: 25%;
+        margin: 5px;
+        width: 30%;
         background-color: #303030;
         border: #252525 solid 1px;
         border-radius: 25px;
@@ -87,7 +87,10 @@ h1{
         text-align: center;
         text-decoration: none;
         color: aliceblue;
-        padding: 20px;
+        padding: 10px;
+    }
+    .prj a h1{
+        font-size: 18px;
     }
     .prj a:hover {
         background-color: #202020;
