@@ -38,6 +38,9 @@ h1{
         color: #f5f5f5;
         text-decoration: none;
     }
+    .navbar a:hover{
+        background-color: #202020;
+    }
 
     .home{
         height: 500px;
@@ -75,7 +78,6 @@ h1{
         flex-grow: 1;
         margin: 10px;
         width: 25%;
-        padding: 20px;
         background-color: #303030;
         border: #252525 solid 1px;
         border-radius: 25px;
@@ -85,6 +87,13 @@ h1{
         text-align: center;
         text-decoration: none;
         color: aliceblue;
+        padding: 20px;
+    }
+    .prj a:hover {
+        background-color: #202020;
+    }
+    .prj p{
+        text-align: justify;
     }
 
     #ct{
