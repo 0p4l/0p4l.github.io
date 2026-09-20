@@ -1014,6 +1014,10 @@ a {
     transition: transform 0.3s ease;
 }
 
+.documentation-placeholder:hover img {
+    transform: scale(1.02);
+}
+
 .documentation-placeholder span {
     font-family: monospace;
     font-size: 10px;
