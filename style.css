@@ -982,23 +982,13 @@ a {
 }
 
 .documentation-placeholder {
-    min-height: 160px;
+    position: relative;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
 
     border: 1px dashed #444440;
 
-    background:
-        repeating-linear-gradient(
-            -45deg,
-            transparent,
-            transparent 8px,
-            rgba(255,255,255,0.015) 8px,
-            rgba(255,255,255,0.015) 9px
-        );
+    background: #151515;
 
     color: var(--muted-dark);
 
