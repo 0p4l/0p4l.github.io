@@ -1005,6 +1005,15 @@ a {
     text-align: center;
 }
 
+.documentation-placeholder img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    transition: transform 0.3s ease;
+}
+
 .documentation-placeholder span {
     font-family: monospace;
     font-size: 10px;
