@@ -1,108 +1,1737 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/style.css">
-    <title>My Portofolio</title>
+
+    <title>Muhammad Naufal — Technician Ops</title>
+
+    <meta
+        name="description"
+        content="Portfolio Muhammad Naufal — Technician Ops dengan pengalaman networking, fiber optic, troubleshooting perangkat, API, automation, dan pengolahan data."
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="portf">
-        <div class="navbar">
-            <ul>
-                <li><a href="#sl">Home</a></li>
-                <li><a href="#prj">Project</a></li>
-                <li><a href="#ct">About</a></li>
-            </ul>
+
+    <!-- =========================
+         DOODLE BACKGROUND
+    ========================== -->
+
+    <div class="doodle doodle-network">○──○──○</div>
+    <div class="doodle doodle-arrow">↗</div>
+    <div class="doodle doodle-bracket">{ }</div>
+    <div class="doodle doodle-terminal">>_</div>
+    <div class="doodle doodle-cable">⌁⌁⌁⌁</div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <a href="#home" class="logo">
+                MN<span>.</span>
+            </a>
+
+            <nav>
+                <a href="#about">Tentang</a>
+                <a href="#experience">Pengalaman</a>
+                <a href="#skills">Keahlian</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+
         </div>
 
-        <div class="home" id="sl">
-            <h1 id="sl1">Welcome to my portfolio</h1>
-        </div>
-        </div>
+    </header>
 
-        <div class="prj" id="prj">
-            <h1>Project</h1>
-            <ul>
-                <li>
-                    <a href="https://github.com/0p4l/MikHP">
-                        <h1>MikHP</h1>
-                        <p>Bot monitoring hotspot and PPPoE, base python.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Coming soon
-                        <h1>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Coming soon
-                        <h1>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Coming soon
-                        <h1>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Coming soon
-                        <h1>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Coming soon
-                        <h1>Lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
 
-        <div class="cntct" id="ct">
-            <h1> </h1>
-                <div id="abt">
-                    <h2>Muhammad Naufal</h2>
-                    <p>
-                        Network Engineer | Freelancer<br>
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero section">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        TECHNICIAN OPS · NETWORK · AUTOMATION
                     </p>
+
+                    <h1>
+                        Muhammad
+                        <span>Naufal.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Technician Ops dengan pengalaman di bidang
+                        troubleshooting jaringan, fiber optic,
+                        perawatan perangkat, API integration,
+                        dan automation.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary"
+                        >
+                            Lihat Project
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="btn btn-outline"
+                        >
+                            Hubungi Saya
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-tags">
+
+                        <span>Networking</span>
+                        <span>Fiber Optic</span>
+                        <span>Automation</span>
+                        <span>API</span>
+
+                    </div>
+
                 </div>
-            <ul class="smd">
-                <li>
-                    <a href="https://wa.me/6281586726804">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAUVBMVEVHcEzz9PP3+Pfq7er19vb//v/8/PyltKrx+PKz5b1z04cwxlYMwUMAvCkAvjMAvzoDwUBGTUiH2JiY3aXX8Nxcznbo6ulJymfQ1NHJzcq9wr8gaKU6AAAAG3RSTlMAOlmJ2f//Lvj+/v///////xX+/v7+rP56aF7BK/qjAAABgklEQVR4AX2Sh5qEMAiEbYyJqXa993/QAza5z2v7b8UMMKDNN9qu77u2+Yd+oMLQ/3UMeoCfktHIVTs5791kRWvGb73BV6YQU2ZSDJPo28c5hzYk/0UKlghfipnzl+C/ERZWVMHA59H7nL8pVp6mUTqp7310Ln1TbESdCtgQJ0fO2J+KnNl4cbhGnx0b3aJ/EO1rkoPIZZ9WAuCeNhLnHGrRBJUDtH53YdQmyEaWL1Lh+yCSxEsoeQn4btJr27kZQYtclym279uSqqMI1lTntqpI6VlhVg9M9gArsg92Cal6mHlPdfx8Emg75S6YV9dNN3WAaskTsi0Zh6bEMUH2cLHLqvDsA4LsTjzeerNhqvscJpYwa5Q9gS0w/XODKbjF2jPK3PXJrIMWcooxiyGSAkKvHX+QHICPRhnYQ0mr5LADpYFuShunWIeJ2VI5Z25gM8TA7jFEfu9Whr2awoEKi8ymYmAYm4oBh8fHfA8vESRme5URxz0XN9cxMMelcYWDt3wCfLshX3540l4AAAAASUVORK5CYII=" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/_imopall">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABRFBMVEVHcEz4D5n9oAf9lAftEKn7lBXhA8VwFf3TPJF3Fv39tgX9egV9GvnpA7b9OFx2GPn7SUH9KXX9UjH////+AWH+Arv+wQPkANL+ygD9BKv+AZP+A27+Mkj/9fP+AYj+XS3+aRj+AXr+cJn+7/ubEvz+YQHUANn+J3Z6FPyIFPv+jQL+Tg/CAd6rAuX/vMT/17P0Asn/ruj+sQD+G3/+Pj3+SjX+dhz/vOD0bt3+ugD+Kmb+dwThGun+PST/y8r+xG3+GpL/rMr9D57+hAKUBuv+LlX+ghX+GGT+Bkb+IVb/s9b+X8P+nwHtAL3+pwH+lgOxEPvGGPXfYeb/xLbzFtHzAKr+N1r/6OH+Kzb7GLf+clD+fIL2uPH+WqP93/f+0O/+Vmb+im/oSOH+LLf+nTT+ylv+qV39Qcj+znvSgfr+mYnWgvrfdhN0AAAAE3RSTlMAx8/PX13K/gnMxsZdzdJhXcrGWouHNAAAAjlJREFUKJFN0utXokAYwOFptzL31u6+mMtVEImC1UxADRYjvGtq5a2Laff28v9/33ewzun3YTiHB2YGzhBCyGY8Fovt7OzWarVsNvsT295eXyW0jXgku6+yTUsmk+sbiPEdSpkaleXtqF7vMyGfIspkT8+wMu1ulM/ne73eeJXEKWX+qPAmtZxPJMbjFYKSOZkBzGf7L83mAPsJlh2H5AT7B+pdMo9Pv/SsQpkNOY6cYircJUfUWErdxfM9qBzHSeQXBvPkKHHBsvfd7j3LLmARziGUJIXiGcx6SGGJbqbEdhddrgTXkqKQ0ShfxjthGKigdjo44GJcB64VnicXF2wXOpKllKAkSRy+U8LVjiDN8wwJgiANR7yug6hYViBJKgSSgsgg6nozDbl2GwdG1y1LiWakyDCkXheuIHdOh7br6jqPyDMvKAjnVzD07RsQhcnEdZsi6Mwr2r5P0fErUBGEehsvTLMVIU9837yFoZlKpUQQczkc6u12K7dE0zQvYU+TZTlVoT+hMhEEAfGG4RVialoRpppXLBbly9vbS8exbaE1BZeihonwUK02Gg10nN5xznF3rSYvEc3zvEMQH4yBYVSrnifLuI4I6VbT4ojsVQ1jD2C6t2w4rEwBP7zetALysWoMjo9/i2+PifjXt+uutULW0PqFQmHr8fEw6umpqJmOLbg6Ht33aAcHW1EHhUJ/YDRwW44w+UYP9bsCpR80yv1BAzft2F82ojO/9mFJS+0f01e/f0X4DzXfhmzQgNUBAAAAAElFTkSuQmCC" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABDUlEQVR4AWP4////gOLB44D6nTcsGIo33QHi/zTGd0B2YTiAPpYjHIHNAf/piQk6wGPW8f/rLz8HYRCbXg5AWI4GQGJ0cwDY12gAJDbcHUA4CkZAIqQUK7Ts/m/SfxBMs5RupswBaACr+P47b/5zlG/5DyzZ/r/+8hNF7vuvP//nn3r0X6JhJ+0ccPrR+/+H7735jw9cf/n5v0D1Nuo5gBxQve06zR0AjoL7b7/+//zjN4bc+ScfaOeA33///k9Yfg4mDw7u/Xdeo6uhnQP6D93FMNxlxjF0ZbRzgMXEQ9iyI90cALIMJoccDXRzAK6CZog6YNQBow6gIx54Bwx4x2RAu2bAysoEZu9o7xgAQrvkxt3WZi0AAAAASUVORK5CYII=" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/0p4l.github.io">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUjHyAiHyAjHiAiHiAgHB0UDRAAAAAaFReEgoPBwMDf39/v7++2trb///+xsLBzcnL+/v5qaGmWlZWMiosJAAAMAAUeGRtCP0Chn6BZV1hRT1A2MjPZ2dlfXV08OTpKSEjQz89lY2MXEhR9e3z19fXHxsbn5+cqJifS2g27AAABfElEQVR4AWVRBaLkUAjjGUzdfdz2/jdcoLLyU6PQlBAAwDBgg9nuZousBef47gMqgge7Fvgra53lEtIpipMkjk4BvZO03X7kgk+zAzmFo40xDovsb5QVMscpzWHNCcHxaHDntqfsB4rOqqx+4JdxivZ8Oud8X3pVjGeOLx3OxZXoWtywqzhxR6HSxJ2yBwE9e+/7Zw9PlXcjZmIkxeqpUyueLx2oBXD4Xn8iNTnd1ijhlF+E+Aq7rzJeOHEqAw/9LIE2gN11umSMoRc9jInU6b1ppYp66G/CPAWrTutpQyPFaw++l+CD8AcG72Jw5zj6CnXmcF9iqy3PyGE3bovoVBS124pqGcD/YvN4LfHILgFV+TdTkJd1IvusXkvxuW92bLWJwySLu/GeomhF3Wn2RY6ZCXQtsxGf6MUfVN576Xe/nsM7K7+JyFuLyfUJByh8OIU7M+rIbIM5Pj1OH2YaywI+M3ony1nL1lggRH13iLTayGqMAGA95eb22JjfaOUa5/ipzPYAAAAASUVORK5CYII=" alt="">
-                    </a>
-                </li>
-            </ul>
+
+
+                <!-- FOTO -->
+
+                <div class="hero-photo-wrapper">
+
+                    <div class="doodle-label">
+                    </div>
+
+                    <div class="hero-photo">
+
+                        <div class="photo-placeholder">
+
+                            <span>FOTO</span>
+
+                            <strong>ANDA</strong>
+
+                        </div>
+
+                    </div>
+
+                    <div class="photo-note">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-note">
+
+                <span>↓</span>
+
+                scroll untuk melihat lebih lanjut
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TENTANG
+        ========================== -->
+
+        <section
+            id="about"
+            class="section about-section"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    01
+                </span>
+
+                <div>
+
+                    <p class="eyebrow">
+                        TENTANG SAYA
+                    </p>
+
+                    <h2>
+                        Tentang Saya
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-main">
+
+                    <p class="large-text">
+
+                        Saya adalah Technician Ops dengan pengalaman
+                        di bidang <strong>networking</strong>,
+                        <strong>fiber optic</strong>,
+                        troubleshooting perangkat,
+                        dan operasional teknis.
+
+                    </p>
+
+
+                    <p>
+
+                        Pengalaman saya dimulai dari pekerjaan
+                        troubleshooting FTTH dan fiber optic,
+                        kemudian berkembang ke operasional teknis
+                        yang melibatkan konektivitas jaringan,
+                        konfigurasi perangkat, monitoring,
+                        troubleshooting, dan penggantian hardware.
+
+                    </p>
+
+
+                    <p>
+
+                        Di luar pekerjaan, saya senang mencoba
+                        memahami bagaimana sebuah sistem bekerja,
+                        termasuk bagaimana aplikasi dan website
+                        berkomunikasi melalui API, kemudian
+                        memanfaatkannya untuk membuat automation
+                        yang praktis.
+
+                    </p>
+
+
+                    <p>
+
+                        Saat ini saya ingin terus mengembangkan
+                        kemampuan menuju bidang
+                        <strong>Network Engineering</strong>,
+                        sambil memperdalam
+                        <strong>automation dan data analysis</strong>.
+
+                    </p>
+
+                </div>
+
+
+                <!-- PROFILE NOTE -->
+
+                <div class="about-note">
+
+                    <div class="note-header">
+
+                        <span>
+                            PROFILE
+                        </span>
+
+                        <span>
+                            ● ● ●
+                        </span>
+
+                    </div>
+
+
+                    <div class="note-body">
+
+                        <p>
+                            <span class="code-key">
+                                nama
+                            </span>:
+                            Muhammad Naufal
+                        </p>
+
+                        <p>
+                            <span class="code-key">
+                                posisi
+                            </span>:
+                            Technician Ops
+                        </p>
+
+                        <p>
+                            <span class="code-key">
+                                lokasi
+                            </span>:
+                            Bogor, Indonesia
+                        </p>
+
+                        <p>
+                            <span class="code-key">
+                                fokus
+                            </span>:
+                            Network Engineering
+                        </p>
+
+                        <p>
+                            <span class="code-key">
+                                minat
+                            </span>:
+                            API · Automation · Data
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PENGALAMAN
+        ========================== -->
+
+        <section
+            id="experience"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    02
+                </span>
+
+                <div>
+
+                    <p class="eyebrow">
+                        PENGALAMAN KERJA
+                    </p>
+
+                    <h2>
+                        Pengalaman
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <!-- DKPS -->
+
+                <article class="timeline-item">
+
+                    <div class="timeline-marker">
+                        01
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <p class="date">
+                                    NOV 2024 — SEKARANG
+                                </p>
+
+                                <h3>
+                                    Technician Ops
+                                </h3>
+
+                                <p class="company">
+                                    PT Dharma Kreasi Prima Sentosa
+                                </p>
+
+                            </div>
+
+
+                            <span class="status">
+                                AKTIF
+                            </span>
+
+                        </div>
+
+
+                        <p class="experience-description">
+
+                            Menangani operasional teknis,
+                            troubleshooting perangkat,
+                            konektivitas jaringan, monitoring,
+                            serta pemeliharaan performa mesin.
+
+                        </p>
+
+
+                        <ul class="experience-list">
+
+                            <li>
+                                Melakukan konfigurasi dan
+                                troubleshooting mesin serta
+                                konektivitas jaringan.
+                            </li>
+
+                            <li>
+                                Melakukan monitoring SLA,
+                                status mesin, temperatur, dan
+                                kondisi operasional.
+                            </li>
+
+                            <li>
+                                Membaca error dan log mesin untuk
+                                menentukan tindakan troubleshooting.
+                            </li>
+
+                            <li>
+                                Melakukan penggantian hardware,
+                                fan, PSU, dan control board.
+                            </li>
+
+                            <li>
+                                Menangani firmware dan kebutuhan
+                                terkait EEPROM.
+                            </li>
+
+                            <li>
+                                Menangani switch, router, dan
+                                troubleshooting konektivitas jaringan.
+                            </li>
+
+                            <li>
+                                Membuat automation untuk efektivitas
+                                pekerjaan operasional yang repetitif.
+                            </li>
+
+                            <li>
+                                Bekerja secara mandiri maupun bersama
+                                tim serta membantu operasional ketika
+                                diperlukan.
+                            </li>
+
+                        </ul>
+
+                        <div class="experience-tools">
+
+                            <span>
+                                Excel
+                            </span>
+
+                            <span>
+                                CMD
+                            </span>
+
+                            <span>
+                                LAN
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SIP -->
+
+                <article class="timeline-item">
+
+                    <div class="timeline-marker">
+                        02
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <div class="experience-top">
+
+                            <div>
+
+                                <p class="date">
+                                    NOV 2023 — NOV 2024
+                                </p>
+
+                                <h3>
+                                    Technician IKR / FTTH
+                                </h3>
+
+                                <p class="company">
+                                    PT Semesta Inti Perkasa
+                                </p>
+
+                                <p class="vendor-note">
+                                    Vendor Technician untuk ICONNET
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <p class="experience-description">
+
+                            Melakukan troubleshooting dan
+                            perbaikan akses internet berbasis
+                            fiber optic dari FAT hingga lokasi
+                            pelanggan.
+
+                        </p>
+
+
+                        <ul class="experience-list">
+
+                            <li>
+                                Melakukan perbaikan akses internet
+                                dari FAT hingga lokasi pelanggan.
+                            </li>
+
+                            <li>
+                                Melakukan perbaikan dan pemindahan
+                                jalur fiber.
+                            </li>
+
+                            <li>
+                                Melakukan fusion splicing sebagai
+                                bagian dari pekerjaan harian.
+                            </li>
+
+                            <li>
+                                Menggunakan OPM untuk mengukur
+                                redaman dan power level fiber.
+                            </li>
+
+                            <li>
+                                Menggunakan OTDR untuk membantu
+                                menemukan titik gangguan.
+                            </li>
+
+                            <li>
+                                Melakukan pengecekan redaman,
+                                bandwidth, dan ping ketika terjadi
+                                gangguan koneksi.
+                            </li>
+
+                            <li>
+                                Berkoordinasi dengan NOC untuk
+                                gangguan yang berkaitan dengan
+                                bandwidth atau sisi jaringan.
+                            </li>
+
+                            <li>
+                                Menangani gangguan fiber akibat
+                                vandalisme, benang layangan,
+                                kebakaran, hewan, dahan pohon,
+                                usia kabel, dan paparan sinar matahari.
+                            </li>
+
+                        </ul>
+
+
+                        <div class="experience-tools">
+
+                            <span>
+                                Fusion Splicer
+                            </span>
+
+                            <span>
+                                OTDR
+                            </span>
+
+                            <span>
+                                OPM
+                            </span>
+
+                            <span>
+                                VFL
+                            </span>
+
+                            <span>
+                                FTTH
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             KEAHLIAN
+        ========================== -->
+
+        <section
+            id="skills"
+            class="section skills-section"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    03
+                </span>
+
+                <div>
+
+                    <p class="eyebrow">
+                        KEMAMPUAN TEKNIS
+                    </p>
+
+                    <h2>
+                        Keahlian
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <!-- NETWORKING -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        ⌁
+                    </div>
+
+                    <h3>
+                        Networking
+                    </h3>
+
+                    <p>
+                        Pengalaman dalam troubleshooting LAN,
+                        konfigurasi MikroTik, routing, switch,
+                        router, dan konektivitas jaringan.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>LAN</span>
+                        <span>MikroTik</span>
+                        <span>DHCP</span>
+                        <span>Routing</span>
+                        <span>Firewall</span>
+                        <span>Hotspot</span>
+                        <span>Switching</span>
+                        <span>IP Configuration</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FIBER -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        ◌
+                    </div>
+
+                    <h3>
+                        Fiber Optic
+                    </h3>
+
+                    <p>
+                        Pengalaman lapangan dalam troubleshooting
+                        FTTH, pengukuran fiber, pencarian titik
+                        gangguan, dan fusion splicing.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>FTTH</span>
+                        <span>Fusion Splicing</span>
+                        <span>OTDR</span>
+                        <span>OPM</span>
+                        <span>VFL</span>
+                        <span>Fiber Repair</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EQUIPMENT -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        [ ]
+                    </div>
+
+                    <h3>
+                        Equipment
+                    </h3>
+
+                    <p>
+                        Troubleshooting dan maintenance Antminer
+                        serta perangkat pendukung operasional.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>Antminer</span>
+                        <span>Hashboard</span>
+                        <span>PSU</span>
+                        <span>Fan</span>
+                        <span>Control Board</span>
+                        <span>Monitoring</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- AUTOMATION -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        Automation & API
+                    </h3>
+
+                    <p>
+                        Pengalaman membuat automation menggunakan
+                        Python, API, request analysis, dan
+                        pengolahan data.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>Python</span>
+                        <span>API</span>
+                        <span>JSON</span>
+                        <span>Requests</span>
+                        <span>Automation</span>
+                        <span>API Analysis</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DATA -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        Σ
+                    </div>
+
+                    <h3>
+                        Data & Excel
+                    </h3>
+
+                    <p>
+                        Pengalaman mengolah dan membandingkan data
+                        operasional menggunakan Excel serta
+                        membuat proses analisis sederhana.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>Excel</span>
+                        <span>VLOOKUP</span>
+                        <span>XLOOKUP</span>
+                        <span>Pivot Table</span>
+                        <span>Filter</span>
+                        <span>Data Processing</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SYSTEMS -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        >_
+                    </div>
+
+                    <h3>
+                        Systems & Tools
+                    </h3>
+
+                    <p>
+                        Terbiasa mengeksplorasi sistem menggunakan
+                        development tools dan lingkungan
+                        Linux-based.
+                    </p>
+
+
+                    <div class="skill-list">
+
+                        <span>Linux</span>
+                        <span>Armbian</span>
+                        <span>Termux</span>
+                        <span>VS Code</span>
+                        <span>DevTools</span>
+                        <span>Reqable</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT
+        ========================== -->
+
+        <section
+            id="projects"
+            class="section projects-section"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    04
+                </span>
+
+                <div>
+
+                    <p class="eyebrow">
+                        PROJECT YANG PERNAH DIBUAT
+                    </p>
+
+                    <h2>
+                        Project
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 PROJECT 01
+            ================================== -->
+
+            <article class="project-card featured">
+
+                <div class="project-number">
+                    01
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-top">
+
+                        <div>
+
+                            <p class="project-label">
+                                INTERNAL AUTOMATION
+                            </p>
+
+                            <h3>
+                                Antminer Automation
+                            </h3>
+
+                        </div>
+
+
+                        <div class="project-status">
+                            DIGUNAKAN DALAM OPERASIONAL
+                        </div>
+
+                    </div>
+
+
+                    <p class="project-description">
+
+                        Automation internal yang dibuat untuk
+                        mengurangi pekerjaan manual dalam operasional
+                        Antminer. Sistem mengambil dan memfilter data
+                        mesin, menentukan target, menjalankan action
+                        melalui API, kemudian memeriksa hasil eksekusi.
+
+                    </p>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <h4>
+                                Masalah
+                            </h4>
+
+                            <p>
+
+                                Proses reboot, sleep, dan unsleep
+                                mesin tertentu sebelumnya dilakukan
+                                secara manual dan berulang.
+
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Solusi
+                            </h4>
+
+                            <p>
+
+                                Membuat workflow automation berbasis
+                                API untuk mencari mesin yang memenuhi
+                                kondisi tertentu dan menjalankan
+                                tindakan secara sequential.
+
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Alur Sistem
+                            </h4>
+
+
+                            <div class="workflow">
+
+                                <span>
+                                    MinerPlus
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Download Data
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Filter
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    API Action
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Verifikasi
+                                </span>
+
+                            </div>
+<br>
+                            <div class="workflow">
+
+                                <span>
+                                    F2Pool
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Download Data
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Filter
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    API Action
+                                </span>
+
+                                <b>→</b>
+
+                                <span>
+                                    Verifikasi
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-features">
+
+                        <span>Reboot</span>
+                        <span>Sleep</span>
+                        <span>Unsleep</span>
+                        <span>API Integration</span>
+                        <span>Data Filtering</span>
+                        <span>Response Handling</span>
+
+                    </div>
+
+
+                    <!-- DOKUMENTASI -->
+
+                    <div class="documentation">
+
+                        <div class="documentation-title">
+
+                            <span>
+                                DOKUMENTASI
+                            </span>
+
+                            <small>
+                                TAMBAHKAN SCREENSHOT KAMU DI SINI
+                            </small>
+
+                        </div>
+
+
+                        <div class="documentation-grid">
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 01
+                                </span>
+
+                                <small>
+                                    Automation Output
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 02
+                                </span>
+
+                                <small>
+                                    Workflow / Interface
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 03
+                                </span>
+
+                                <small>
+                                    Result / Terminal
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================
+                 PROJECT 02
+            ================================== -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+
+                <div class="project-content">
+
+                    <p class="project-label">
+                        PERSONAL PROJECT
+                    </p>
+
+                    <h3>
+                        Vidown
+                    </h3>
+
+
+                    <p class="project-description">
+
+                        Video downloader berbasis CLI yang dibuat
+                        untuk mengambil dan memproses video dari
+                        Terabox. Project menggunakan Python dan
+                        FFmpeg serta menyediakan pilihan video
+                        dan resolusi sebelum proses download.
+
+                    </p>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <h4>
+                                Alur
+                            </h4>
+
+
+                            <div class="workflow">
+
+                                <span>URL</span>
+                                <b>→</b>
+                                <span>Process</span>
+                                <b>→</b>
+                                <span>Select</span>
+                                <b>→</b>
+                                <span>Download</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Teknologi
+                            </h4>
+
+
+                            <div class="project-features">
+
+                                <span>Python</span>
+                                <span>FFmpeg</span>
+                                <span>Request Analysis</span>
+                                <span>CLI</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="documentation">
+
+                        <div class="documentation-title">
+
+                            <span>
+                                DOKUMENTASI
+                            </span>
+
+                            <small>
+                                TAMBAHKAN SCREENSHOT KAMU DI SINI
+                            </small>
+
+                        </div>
+
+
+                        <div class="documentation-grid two">
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 01
+                                </span>
+
+                                <small>
+                                    CLI / Output
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 02
+                                </span>
+
+                                <small>
+                                    Project Demo
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="#"
+                            class="project-link"
+                        >
+                            GitHub →
+                        </a>
+
+                        <a
+                            href="#"
+                            class="project-link"
+                        >
+                            Demo →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================
+                 PROJECT 03
+            ================================== -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+
+                <div class="project-content">
+
+                    <p class="project-label">
+                        PERSONAL AUTOMATION
+                    </p>
+
+                    <h3>
+                        FreeReels Automation
+                    </h3>
+
+
+                    <p class="project-description">
+
+                        Project automation personal yang dibuat
+                        untuk menjalankan berbagai aktivitas repetitif
+                        dalam aplikasi melalui analisis API dan
+                        automation berbasis Termux / Armbian.
+
+                    </p>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <h4>
+                                Automation
+                            </h4>
+
+
+                            <div class="project-features">
+
+                                <span>Check-in</span>
+                                <span>Spin</span>
+                                <span>Video Tasks</span>
+                                <span>Other Tasks</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Teknologi
+                            </h4>
+
+
+                            <div class="project-features">
+
+                                <span>Python</span>
+                                <span>API Analysis</span>
+                                <span>Reqable</span>
+                                <span>Termux</span>
+                                <span>Armbian</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="documentation">
+
+                        <div class="documentation-title">
+
+                            <span>
+                                DOKUMENTASI
+                            </span>
+
+                            <small>
+                                TAMBAHKAN SCREENSHOT KAMU DI SINI
+                            </small>
+
+                        </div>
+
+
+                        <div class="documentation-grid two">
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 01
+                                </span>
+
+                                <small>
+                                    Automation
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 02
+                                </span>
+
+                                <small>
+                                    Output
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="#"
+                            class="project-link"
+                        >
+                            GitHub →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================
+                 PROJECT 04
+            ================================== -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    04
+                </div>
+
+
+                <div class="project-content">
+
+                    <p class="project-label">
+                        DATA ANALYSIS · API
+                    </p>
+
+                    <h3>
+                        MEXC Futures Analyzer
+                    </h3>
+
+
+                    <p class="project-description">
+
+                        Project analisis market yang dibuat untuk
+                        mengurangi proses analisis manual. Sistem
+                        mengambil data market dan Kline melalui API,
+                        melakukan filtering, analisis, scoring,
+                        kemudian menghasilkan kandidat LONG/SHORT
+                        dalam format JSON.
+
+                    </p>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <h4>
+                                Alur Sistem
+                            </h4>
+
+
+                            <div class="workflow">
+
+                                <span>MEXC API</span>
+
+                                <b>→</b>
+
+                                <span>Market Data</span>
+
+                                <b>→</b>
+
+                                <span>Filter</span>
+
+                                <b>→</b>
+
+                                <span>Analysis</span>
+
+                                <b>→</b>
+
+                                <span>Score</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                Output
+                            </h4>
+
+                            <p>
+
+                                Menghasilkan kandidat market yang
+                                telah dianalisis dan diranking dalam
+                                format JSON. Modul automated order
+                                execution masih dalam tahap
+                                pengembangan.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-features">
+
+                        <span>Python</span>
+                        <span>API</span>
+                        <span>Kline</span>
+                        <span>Data Filtering</span>
+                        <span>Scoring</span>
+                        <span>JSON</span>
+
+                    </div>
+
+
+                    <div class="documentation">
+
+                        <div class="documentation-title">
+
+                            <span>
+                                DOKUMENTASI
+                            </span>
+
+                            <small>
+                                TAMBAHKAN SCREENSHOT KAMU DI SINI
+                            </small>
+
+                        </div>
+
+
+                        <div class="documentation-grid">
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 01
+                                </span>
+
+                                <small>
+                                    Market Scanner
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 02
+                                </span>
+
+                                <small>
+                                    Analysis
+                                </small>
+
+                            </div>
+
+
+                            <div class="documentation-placeholder">
+
+                                <span>
+                                    SCREENSHOT 03
+                                </span>
+
+                                <small>
+                                    JSON Output
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="#"
+                            class="project-link"
+                        >
+                            GitHub →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =========================
+             PENDIDIKAN
+        ========================== -->
+
+        <section class="section education-section">
+
+            <div class="section-heading">
+
+                <span class="section-number">
+                    05
+                </span>
+
+                <div>
+
+                    <p class="eyebrow">
+                        LATAR BELAKANG PENDIDIKAN
+                    </p>
+
+                    <h2>
+                        Pendidikan
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-year">
+
+                    2018<br>
+                    <span>—</span><br>
+                    2021
+
+                </div>
+
+
+                <div>
+
+                    <p class="education-label">
+                        SEKOLAH MENENGAH KEJURUAN
+                    </p>
+
+                    <h3>
+                        Teknik Komputer dan Jaringan
+                    </h3>
+
+                    <p>
+                        SMK
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             KONTAK
+        ========================== -->
+
+        <section
+            id="contact"
+            class="section contact-section"
+        >
+
+            <div class="contact-doodle">
+                YUK TERHUBUNG
+            </div>
+
+
+            <p class="eyebrow">
+                PUNYA PROJECT ATAU PELUANG?
+            </p>
+
+
+            <h2>
+
+                Mari membuat<br>
+                sesuatu yang berguna.
+
+            </h2>
+
+
+            <p class="contact-description">
+
+                Terbuka untuk peluang dan diskusi seputar
+                networking, technical operations, automation,
+                maupun project teknologi lainnya.
+
+            </p>
+
+
+            <div class="contact-grid">
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:muhammad.naufal150@gmail.com"
+                    class="contact-card"
+                >
+
+                    <span class="contact-label">
+                        EMAIL
+                    </span>
+
+                    <strong>
+                        muhammad.naufal150@gmail.com
+                    </strong>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <!-- WHATSAPP -->
+
+                <a
+                    href="https://wa.me/6281586726804"
+                    class="contact-card"
+                    target="_blank"
+                    rel="noopener"
+                >
+
+                    <span class="contact-label">
+                        WHATSAPP
+                    </span>
+
+                    <strong>
+                        +62 815 8672 6804
+                    </strong>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a
+                    href="#"
+                    class="contact-card"
+                    target="_blank"
+                    rel="noopener"
+                >
+
+                    <span class="contact-label">
+                        GITHUB
+                    </span>
+
+                    <strong>
+                        Tambahkan GitHub
+                    </strong>
+
+                    <span class="contact-arrow">
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div>
+            Muhammad Naufal
         </div>
 
-        <div class="footer">
-            <p>&copy Muhammad Naufal 2024</p>
+        <div>
+            Technician Ops · Network · Automation
         </div>
-    </div>
+
+        <div>
+            © 2026
+        </div>
+
+    </footer>
+
 </body>
 </html>
